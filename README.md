@@ -8,7 +8,7 @@ A simple Task Management API built with Laravel that supports full CRUD (Create,
 
 -   PHP 8.x or higher
 -   Composer
--   MySQL/PostgreSQL (or your preferred database)
+-   SQlite(default) / PostgreSQL (or your preferred database)
 -   Docker (optional)
 
 ## Installation
