@@ -18,8 +18,8 @@ A simple Task Management API built with Laravel that supports full CRUD (Create,
 1. **Clone the repository**
 
 ```bash
-   git clone https://github.com/SteveEnny/Afrifounders-assessment-task.git
-   cd Afrifounders-assessment-task
+   git clone https://github.com/SteveEnny/Afrifounders-assessment.git
+   cd Afrifounders-assessment
 ```
 
 2. **Install dependencies**
@@ -49,6 +49,12 @@ A simple Task Management API built with Laravel that supports full CRUD (Create,
    php artisan serve
 ```
 
+OR
+
+```bash
+   php -S 127.0.0.1:8000 -t public
+```
+
 The application will be available at `http://localhost:8000`
 
 ### Option 2: Docker Setup
@@ -56,11 +62,12 @@ The application will be available at `http://localhost:8000`
 1. **Clone the repository**
 
 ```bash
-   git clone https://github.com/SteveEnny/Afrifounders-assessment-task.git
-   cd Afrifounders-assessment-task.git
+   git clone https://github.com/SteveEnny/Afrifounders-assessment.git
+   cd Afrifounders-assessment
 ```
 
 2. **Configure environment**
+   set up environment to use postgress variables
 
 ```bash
    cp .env.example .env
@@ -95,6 +102,14 @@ Run the test:
 
 ```bash
 composer test
+```
+
+All tests are passing ✓
+
+Run the test in docker:
+
+```bash
+docker compose exec app composer test
 ```
 
 All tests are passing ✓
