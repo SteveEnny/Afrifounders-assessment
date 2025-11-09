@@ -15,7 +15,7 @@ A simple Task Management API built with Laravel that supports full CRUD (Create,
 
 ## API Documentation
 
-Full API documentation is available on [Postman](https://documenter.getpostman.com/view/14679973/2sB3WsQL6B#b028fc23-c9b1-451a-a8fa-c9f8a61b9515).
+Full API documentation is available on [Postman](https://documenter.getpostman.com/view/14679973/2sB3WsQL6B#b028fc23-c9b1-451a-a8fa-c9f8a61b9515) https://documenter.getpostman.com/view/14679973/2sB3WsQL6B#b028fc23-c9b1-451a-a8fa-c9f8a61b9515
 
 ### Option 1: Local Setup
 
